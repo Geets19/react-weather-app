@@ -1,9 +1,15 @@
 .App {
   max-width: 600px;
   margin: 30px auto;
+  background-image: url("./assets/backgroundpic.jpg");
+  background-image: linear-gradient(to bottom);
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.4 ease-out;
 }
 
 .App footer {
+  color: white;
   font-size: 11px;
   margin: 10px 0;
 }

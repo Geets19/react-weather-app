@@ -1,10 +1,10 @@
 .Weather {
   font-family: arial, sans-serif;
   border: 1px solid #dadde1;
-  padding: 16px;
+  padding: 20px;
   margin: 30px auto;
   border-radius: 4px;
-  color: rgb(135, 135, 135);
+  color: white;
 }
 
 .Weather form {
@@ -13,6 +13,7 @@
 
 .Weather h1 {
   display: block;
+  color: white;
   font-size: 22px;
   font-weight: 400;
   margin: 20px 0 0 0;
@@ -41,7 +42,7 @@
 
 .Weather .temperature {
   font-weight: lighter;
-  color: #202124;
+  color: white;
   display: inline-block;
   font-size: 48px;
   line-height: 60px;

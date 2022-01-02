@@ -8,8 +8,18 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather defaultCity="New York" />
+
         <footer>
-          This project was coded by Geetha Girithari and is
+          This project was coded by
+          <a
+            href="https://www.linkedin.com/in/geetha-girithari"
+            target="_blank"
+            rel=" noopener noreferrer"
+          >
+            {" "}
+            Geetha Girithari
+          </a>{" "}
+          and is
           <a
             href="https://github.com/Geets19/react-weather-app"
             target="_blank"
